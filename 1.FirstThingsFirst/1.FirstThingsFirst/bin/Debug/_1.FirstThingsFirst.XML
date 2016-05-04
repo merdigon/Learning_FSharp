@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>_1.FirstThingsFirst</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="M:Program.negList``1(``0)">
+<summary>
+negative every second item in list
+</summary>
+</member>
+<member name="M:Program.listComp(System.Int32)">
+<summary>
+list comprehansion
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:Program.list">
+<summary>
+list
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="P:Program.turple">
+<summary>
+turple
+</summary>
+</member>
+<member name="P:Program.returnNothing">
+<summary>
+returns unit (nothing)
+</summary>
+</member>
+<member name="M:Program.ret``1(``0)">
+<summary>
+return generic
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:Program.sum(System.Int32,System.Int32)">
+<summary>
+return int
+</summary>
+</member>
+<member name="T:Program">
+
+</member>
+</members>
+</doc>

@@ -1,0 +1,8 @@
+C:\Users\Szymon\Documents\GitHub\Learning_F_Sharp\1.FirstThingsFirst\1.FirstThingsFirst\bin\Debug\_1.FirstThingsFirst.exe.config
+C:\Users\Szymon\Documents\GitHub\Learning_F_Sharp\1.FirstThingsFirst\1.FirstThingsFirst\bin\Debug\_1.FirstThingsFirst.XML
+C:\Users\Szymon\Documents\GitHub\Learning_F_Sharp\1.FirstThingsFirst\1.FirstThingsFirst\bin\Debug\_1.FirstThingsFirst.exe
+C:\Users\Szymon\Documents\GitHub\Learning_F_Sharp\1.FirstThingsFirst\1.FirstThingsFirst\bin\Debug\_1.FirstThingsFirst.pdb
+C:\Users\Szymon\Documents\GitHub\Learning_F_Sharp\1.FirstThingsFirst\1.FirstThingsFirst\bin\Debug\FSharp.Core.dll
+C:\Users\Szymon\Documents\GitHub\Learning_F_Sharp\1.FirstThingsFirst\1.FirstThingsFirst\bin\Debug\FSharp.Core.xml
+C:\Users\Szymon\Documents\GitHub\Learning_F_Sharp\1.FirstThingsFirst\1.FirstThingsFirst\obj\Debug\_1.FirstThingsFirst.exe
+C:\Users\Szymon\Documents\GitHub\Learning_F_Sharp\1.FirstThingsFirst\1.FirstThingsFirst\obj\Debug\_1.FirstThingsFirst.pdb
