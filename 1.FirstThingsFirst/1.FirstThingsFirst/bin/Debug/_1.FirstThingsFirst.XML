@@ -5,12 +5,25 @@
 <member name="">
 
 </member>
-<member name="M:Program.negList``1(``0)">
+<member name="M:ChapterOneAndTwo.multiList(System.Int32)">
+<summary>
+simplified list comprehension
+</summary>
+</member>
+<member name="M:ChapterOneAndTwo.returnigOption(System.Int32)">
+<summary>
+options
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:ChapterOneAndTwo.negList(System.Int32)">
 <summary>
 negative every second item in list
 </summary>
 </member>
-<member name="M:Program.listComp(System.Int32)">
+<member name="M:ChapterOneAndTwo.listComp(System.Int32)">
 <summary>
 list comprehansion
 </summary>
@@ -27,7 +40,7 @@ list comprehansion
 <member name="">
 
 </member>
-<member name="P:Program.list">
+<member name="P:ChapterOneAndTwo.list">
 <summary>
 list
 </summary>
@@ -38,17 +51,17 @@ list
 <member name="">
 
 </member>
-<member name="P:Program.turple">
+<member name="P:ChapterOneAndTwo.turple">
 <summary>
 turple
 </summary>
 </member>
-<member name="P:Program.returnNothing">
+<member name="P:ChapterOneAndTwo.returnNothing">
 <summary>
 returns unit (nothing)
 </summary>
 </member>
-<member name="M:Program.ret``1(``0)">
+<member name="M:ChapterOneAndTwo.ret``1(``0)">
 <summary>
 return generic
 </summary>
@@ -56,12 +69,51 @@ return generic
 <member name="">
 
 </member>
-<member name="M:Program.sum(System.Int32,System.Int32)">
+<member name="">
+
+</member>
+<member name="M:ChapterOneAndTwo.sum(System.Int32,System.Int32)">
 <summary>
 return int
 </summary>
 </member>
-<member name="T:Program">
+<member name="T:ChapterOneAndTwo">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
 
 </member>
 </members>
