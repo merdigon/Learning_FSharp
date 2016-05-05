@@ -1,23 +1,15 @@
-﻿// Learn more about F# at http://fsharp.net
-// See the 'F# Tutorial' project for more help.
+﻿
+module ChapterOneAndTwo
+
 open System
+open MyNamespace
 
-(*
-let main2 (argv : string[]) = 
-    if argv.Length <> 2 then
-        failwith "Error: Expected arguments <greeting> and <thing>"
-
-    let greating, thing = argv.[0], argv.[1]
-    let timeOfDay = DateTime.Now.ToString("hh:mm:tt")
-
-    printfn "%s, %s at %s" greating thing timeOfDay
-        
-    0 // return an integer exit code
-    *)
 
 ///return int
 let sum x y =
     x + y
+
+let square x = x * x
 
 //return float
 let sum2 (x:float) (y:float) =
@@ -61,10 +53,19 @@ let negList x =
                 yield i
     ]
 
+let newList = List.map square [1; 2; 3]
+
+///options
+let returnigOption a = 
+    if a = 1 then
+        Some(a)
+    else
+        None
+
 ///simplified list comprehension
 let multiList x = [for i in 1..10 -> x*i ]
 
-[<EntryPoint>]
+//[<EntryPoint>]
 let main (args : string[]) =
     let a = sum 5 4
     //when want to ignore return value (return nothing-unit)

@@ -47,7 +47,9 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.fs" />
+    <Compile Include="MyNamespace.fs" />
+    <Compile Include="ChapterOneAndTwo.fs" />
+    <Compile Include="ChapterThree.fs" />
     <None Include="App.config" />
   </ItemGroup>
   <PropertyGroup>
