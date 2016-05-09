@@ -1,6 +1,7 @@
 ﻿module ChapterThree
 
 open MyNamespace
+open System.IO
 
 let justGiveMe x =
     x
@@ -119,6 +120,32 @@ let matchMe =
     function
     | {Surname = "Nowak"} -> "I'm original"
     | _ -> "Just Clone"
+
+//counted only once, then take cached value
+let lazier = lazy (printfn "Evaluating x..."; 5)
+
+//get lazy value
+let lazyValue = 
+    match lazier.IsValueCreated with
+    | true -> lazier.Value
+    | false -> -1
+
+//sequence is like list, but lazy
+let alphabet = seq { for c in 'A' .. 'Z' -> c}
+let alphabet2 = seq { for a in 'A' .. 'Z' do
+                        yield a }
+
+//yield return sequence into our new sequence
+let newSeq = seq { yield! Directory.GetFiles("my path") }
+
+//queries
+
+let myfirstquery = query {
+                        for customer in allCustomers do
+                        where (customer.State = stateName)
+                        select customer.ZipCode
+                        distinct
+                    }
 
 [<EntryPoint>]
 let main (args : string[]) =    
