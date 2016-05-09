@@ -1,5 +1,7 @@
 ﻿module ChapterThree
 
+open MyNamespace
+
 let justGiveMe x =
     x
 
@@ -77,6 +79,46 @@ let lessOrGreaterThanTwo x =
     | _ when x < 2 -> "Less"
     | _ -> "Equals"
 
+///turple matching pattern
+let check x =
+    match x with
+    | turple when fst turple <> snd turple -> true
+    | _ -> false
+
+///list pattern matching
+let rec checkList x =
+    match x with
+    | [] -> "Empty"
+    | [_] -> "One element"
+    | head :: tail -> checkList tail
+
+///let pattern matching
+let x, y = (100, 20)
+
+///alternate lambda syntax
+let rec checkListInLambda =
+    function
+    | [] -> "Empty"
+    | [_] -> "One element"
+    | head :: tail -> checkList tail
+
+let typValue =  Baller(Red)
+
+let checkIfBallerRed x =
+    match x with
+    | Baller(Red) -> "Yes"
+    | _ -> "No"
+
+///records
+let newPerson = { First = "Szymon"; Surname = "Nowak"; Age=21}
+
+///clone record
+let anotherPerson = {newPerson with Surname="Niuwak"}
+
+let matchMe =
+    function
+    | {Surname = "Nowak"} -> "I'm original"
+    | _ -> "Just Clone"
 
 [<EntryPoint>]
 let main (args : string[]) =    

@@ -83,11 +83,183 @@ return int
 <member name="">
 
 </member>
+<member name="P:ChapterThree.newPerson">
+<summary>
+records
+</summary>
+</member>
 <member name="">
 
 </member>
 <member name="">
 
+</member>
+<member name="M:ChapterThree.checkListInLambda``1(Microsoft.FSharp.Collections.FSharpList{``0})">
+<summary>
+alternate lambda syntax
+</summary>
+</member>
+<member name="P:ChapterThree.x">
+<summary>
+let pattern matching
+</summary>
+</member>
+<member name="P:ChapterThree.y">
+<summary>
+let pattern matching
+</summary>
+</member>
+<member name="M:ChapterThree.checkList``1(Microsoft.FSharp.Collections.FSharpList{``0})">
+<summary>
+list pattern matching
+</summary>
+</member>
+<member name="M:ChapterThree.check``1(``0,``0)">
+<summary>
+turple matching pattern
+</summary>
+</member>
+<member name="M:ChapterThree.lessOrGreaterThanTwo(System.Int32)">
+<summary>
+guards
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="P:ChapterThree.MagicValue">
+<summary>
+match against existing value
+</summary>
+</member>
+<member name="M:ChapterThree.sayHello(System.String)">
+<summary>
+named pattern
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:ChapterThree.onlyEven(System.Int32)">
+<summary>
+pattern matching
+</summary>
+</member>
+<member name="P:ChapterThree.adding">
+<summary>
+composition
+</summary>
+</member>
+<member name="P:ChapterThree.sup">
+<summary>
+pipe
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:ChapterThree.op_EqualsEqualsEquals(System.String,System.String)">
+<summary>
+operator functions
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:ChapterThree.left``2(``0)">
+<summary>
+mutual recursion
+</summary>
+</member>
+<member name="M:ChapterThree.factorial(System.Int32)">
+<summary>
+recursive functions
+</summary>
+</member>
+<member name="M:ChapterThree.mapping(Microsoft.FSharp.Collections.FSharpList{System.Int32})">
+<summary>
+mapping for specified list type with lambda function
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:ChapterThree.imperativeSum(System.Int32)">
+<summary>
+why doing everything in function is better
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="T:ChapterThree">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:MyNamespace.Person">
+<summary>
+records
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:MyNamespace.Statement">
+<summary>
+recursive types
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:MyNamespace.Things">
+<summary>
+just mix words from Thing with &quot;er&quot;
+</summary>
 </member>
 <member name="">
 
