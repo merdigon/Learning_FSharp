@@ -138,12 +138,11 @@ let alphabet2 = seq { for a in 'A' .. 'Z' do
 //yield return sequence into our new sequence
 let newSeq = seq { yield! Directory.GetFiles("my path") }
 
-//queries
-
+//queries (I know it makes no sense)
 let myfirstquery = query {
-                        for customer in allCustomers do
-                        where (customer.State = stateName)
-                        select customer.ZipCode
+                        for customer in seq { for c in 'A' .. 'Z' -> c} do
+                        where (customer = 'B')
+                        select customer
                         distinct
                     }
 
